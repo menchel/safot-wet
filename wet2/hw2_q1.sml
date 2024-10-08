@@ -1,0 +1,10 @@
+fun sig1 f h g= h (f g);
+fun sig2 x f=f(f x);
+fun sig3 g x y=g(x,y);
+fun sig4 a b =if a>0.1 then true else if b>0.1 then true else false;
+fun sig5 f lst1=map (map f) lst1
+fun sig6 a b c =if a then b else if a then b else c;
+fun sig7 ()=3;
+fun sig8 f h g r = h (f g);
+fun sig9 lst =length lst;
+fun sig10 f lst = (map f) lst;
